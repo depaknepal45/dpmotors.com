@@ -1,0 +1,492 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins',sans-serif;
+box-sizing: border-box;
+
+}
+
+
+body 
+{
+
+background-color: darkslategrey;
+min-height: 200vh;
+
+
+}
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 40px 100px;
+z-index: 100000;
+background-color: wheat;
+height: 20px;
+}
+
+header .logo
+{
+position: relative;
+font-weight: 700;
+color: black;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: 0.6s;
+
+}
+
+
+header ul
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+header ul li
+{ 
+
+position: relative;
+list-style:none;
+}
+
+header ul li a
+ {
+position: relative;
+margin: 0 15px;
+text-decoration: none;
+color: black;
+letter-spacing: 2px;
+font-weight: 500px;
+transition: 0.6s;
+
+}
+
+.banner{ 
+position: relative;
+width: 100%;
+height: 1550vh;
+background: darkslategray;
+background-size: cover;
+
+}
+
+
+.evo{ 
+width: 900px;
+height: 600px;
+margin-left: 200px;
+border:2px solid rgb(63, 46, 46);
+border-radius: 10px;
+margin-top: 100px;
+}
+
+header ul li a::after{
+    content: '';
+ height: 4px;
+ width: 0%;
+ background:rgb(72, 44, 44);
+ position: absolute;
+ left: 0;
+ bottom: -10px;
+ transition: 0.5s;
+ 
+ }
+
+
+ header ul li a:hover::after{
+    width: 100%;
+    
+    
+    
+    }
+
+
+    header ul li a:hover{ 
+
+        color:rgb(54, 103, 101);
+    }
+
+
+.intro{ 
+font-size: 30px;
+font-weight:bold;
+color: rgb(190, 177, 177);
+margin-top: 50px;
+font-family:"Georgia", sans-serif;
+margin-left: 20px;
+letter-spacing: 1px;
+margin-bottom: 50px;
+
+}
+
+
+.birth{ 
+font-size: 30px;
+font-weight: bolder;
+color: rgb(0, 0, 0);
+font-family:"Georgia", sans-serif ;
+margin-left: 20px;
+}
+
+
+.birth-p{ 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+
+.karl{ 
+    width: 800px;
+height: 400px;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+.elec{ 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+}
+
+.ele{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+
+
+}
+
+.elecimg{ 
+
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(229, 217, 217);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.brass{ 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+
+
+}
+
+.brass-p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+
+
+
+
+
+}
+
+
+
+.brassimg{ 
+
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+
+}
+
+.vin{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+
+
+}
+.vinp{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+
+
+
+}
+.vinimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+
+}
+
+.pre{
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+}
+
+.prep{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.preimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+
+}
+
+.post{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+
+}
+
+.postp{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.postimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+
+
+
+}
+
+.mod{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+
+
+}
+
+.modp{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.modimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+}
+
+.bm{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+
+
+}
+
+.bmp{    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;}
+
+.bmimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+    
+}
+
+.tesla{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+}
+.teslap{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;}
+
+
+
+.teslaimg{
+    width: 800px;
+    height: 400px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+}
+
+.self{ 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 20px;
+display: flex;
+margin-top: 20px;
+}
+
+.selfp{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family:"Georgia", sans-serif ;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.selfimg{
+    width: 800px;
+    height: 500px;
+        margin-left: 20%;
+        margin-top: 30px;
+
+        border: 2px solid rgb(207, 189, 189);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
